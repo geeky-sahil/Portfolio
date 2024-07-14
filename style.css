@@ -29,20 +29,7 @@ canvas {
 }
 
 #nav {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 99;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 3%;
-    border-radius: 20px;
-    height: 10vh;
-    width: 30vw;
-    background-color: #ffffff54;
-    backdrop-filter: blur(10px);
-    padding: 0px 5px; */
+    
     display: flex;
     height: 10vh;
     width: 100%;
@@ -63,19 +50,9 @@ canvas {
     color: black;
 }
 
-#nav>button {
-    padding: 20px 10px;
-    border-radius: 10px;
-    border: none;
-    background-color: #ffcd6d;
-    font-weight: 600;
-}
 
-#center-nav>a {
-    text-decoration: none;
-    color: #000;
-    font-size: 15px;
-}
+
+
 
 #page>h1 {
     font-size: 80px;
