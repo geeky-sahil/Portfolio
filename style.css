@@ -32,7 +32,7 @@ canvas {
     
     display: flex;
     height: 10vh;
-    width: 100%;
+    width: 100vw;
     margin: 20px;
     padding: 20px;
     align-items: center;
@@ -71,8 +71,9 @@ canvas {
     justify-content: center;
     margin: 10px;
     padding: 10px;
-    height: 40%;
-    width: 80%;
+    /* changed */
+    height: 40vh;
+    width: 80vw;
     
 }
 
@@ -183,7 +184,8 @@ canvas {
     position: relative;
     /* display: flex; */
     height: 100vh;
-    width: 100%;
+    /* changed width */
+    width: 100vw;
 }
 /* #page6 #cardscontainer ::before{
     background-image: url("certification-banner.jpg" );
@@ -191,8 +193,9 @@ canvas {
     width: 100%;
 } */
 #page6 #banner{
-    height: 20%;
-    width: 100%;
+    /* changed */
+    height: 20vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,12 +211,14 @@ canvas {
     justify-content: center;
     position: relative;
     gap: 20px;
-    width: 100%;
+    /* changed width */
+    width: 100vw;
     top: 10%;
 }
 .card{
-    height: 80%;
-    width: 34%;
+    /* changed */
+    height: 80vh;
+    width: 34vw;
     background-color: blue;
     border-radius: 15px;
     background-size:contain;
@@ -236,8 +241,9 @@ canvas {
     background-image: url("IBM2.jpg");
 }
 .overlay{
-    height: 100%;
-    width: 100%;
+    /* changed */
+    height: 100vh;
+    width: 100vw;
     background-color:silver;
     padding-top: 160px;
     padding: 30px;
@@ -388,7 +394,8 @@ canvas {
     align-items: center;
 }
 #page9 img{
-    height: 30%;
-    width: 100%;
+    /* changed */
+    height: 30vh;
+    width: 100vw;
     position: relative;
 }
